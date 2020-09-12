@@ -43,10 +43,15 @@ var j = destructivelyRemoveElementFromBeginningOfArray(chocolateBars);
 console.log(j)
 
 function removeElementFromBeginningOfArray(array) {
-  var o = array.slice(1)
+  var o = array.slice(1,3)
   return o}
-var l = removeElementFromBeginningOfArray(chocolateBars);
+  
+var myarr = ["a","b","c","d"]
+var l = removeElementFromBeginningOfArray(myarr);
+console.log("Example of slice")
+console.log(myarr)
 console.log(l)
+
 
 function destructivelyRemoveElementFromEndOfArray(array) {
  array.pop()
